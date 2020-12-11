@@ -1,0 +1,15 @@
+<form action="/action_page.php">
+    <div class="container">
+        <h1>Login</h1>
+        <hr>
+
+        <label for="Username"><b>Username</b></label>
+        <input type="text" placeholder="Enter username" name="Username" id="email" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+
+        <button [routerLink]="['/home']" type="submit" class="registerbtn" (click)="login()">Login</button>
+    </div>
+</form>
